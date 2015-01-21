@@ -1,0 +1,13 @@
+@import 'toolkit';
+@import 'partials/vars';
+@import 'partials/settings';
+@import 'partials/mixins';
+@import 'partials/extends';
+
+.ratio--16-9 {
+  @extend %embed--16-9;
+}
+
+.ratio--4-3 {
+  @extend %embed--4-3;
+}

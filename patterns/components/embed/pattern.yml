@@ -1,0 +1,7 @@
+name: Constrained Embedded Content
+description: Emebedded content constrained to a ratio
+displayTemplate: pattern
+variables:
+  ratios:
+    - 16-9
+    - 4-3
