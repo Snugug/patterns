@@ -1,5 +1,12 @@
 # Watson Design Library Changelog
 
+## v1.0.0-beta.4
+*April 30, 2015
+
+**New**
+
+* Add JavaScript config for rendering the site's JavaScript
+
 ## v1.0.0-beta.3
 *April 28, 2015*
 
