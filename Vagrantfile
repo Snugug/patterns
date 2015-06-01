@@ -54,5 +54,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provider "virtualbox" do |v|
     v.memory = 4096
     v.cpus = 2
+    v.natdnsproxy1 = 'on'
+    v.natdnshostresolver1 = 'on'
   end
 end
